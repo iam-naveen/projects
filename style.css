@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    height: fit-content;
+    background-color: bisque;
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    background-color: beige;
+}
