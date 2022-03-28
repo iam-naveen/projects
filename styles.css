@@ -3,8 +3,8 @@
 Background -rgb(7, 56, 85) 
 Button - rgb(23, 91, 112)*/
 :root{
-    --background: rgba(255, 248, 237, 1);
-
+    --background: rgb(255, 248, 237);
+    --header-background: rgb(252, 220, 169);
     --button-background: rgba(255, 101, 101, 1);
 
 }
@@ -12,7 +12,10 @@ Button - rgb(23, 91, 112)*/
 
 @media only screen and (min-width: 650px) {
     body{
-        background-color: var(--background);
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: black;
         font-family: 'Poppins', sans-serif;
         margin: 0;
     }
@@ -20,27 +23,38 @@ Button - rgb(23, 91, 112)*/
     .header{
         display: flex;
         flex-direction: column;
-        margin: 7em 2em 0 4em;
+        height: 30%;
+        padding: 5em 2em 2em 4em;
+        margin-bottom: 2vh;
+        background-color: var(--header-background);
+        border-radius: 0 0 200px 5vw;
     }
     .name{
         font-weight: bold;
-        font-size: 3.5em;
+        font-size: 8vh;
         line-height: 1;
     }
     .after-name{
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 3.5em;
+        font-size: 8vh;
         color: var(--background);
         -webkit-text-stroke: 3px black;
         line-height: 1;
+        padding-right: 150px;
     }
+
+
     .projectsContainer{
         display: flex;
         flex-direction: column;
-        margin: 4em 2em 0 4em;
+        height: 50%;
+        padding: 4em 2em 0 4em;
+        background-color: var(--background);
+        border-radius: 5vw 5vw 0 0;
     }
     .projectBar{
+        max-width: 150vh;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -49,6 +63,7 @@ Button - rgb(23, 91, 112)*/
         border-radius: 20px;
         overflow: hidden;
         background-color: black;
+        margin-bottom: 5vh;
     }
     .projectName{
         padding: 10px 15px 10px 15px;
@@ -59,7 +74,7 @@ Button - rgb(23, 91, 112)*/
         border: 3px solid black;
     }
     .button{
-        padding: 10px 15px 10px 15px;
+        padding: 10px 40px;
         font-weight: bold;
         font-size: 25px;
         text-decoration: none;
