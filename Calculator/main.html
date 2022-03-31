@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="number" id="firstInt">
+            <input type="number" id="secondInt">
+        </div>
+        <div class="op-container">
+            <div role="button" aria-pressed="false" class="operations" id="add" onclick="add()">ADD</div>
+            <div role="button" aria-pressed="false" class="operations" id="sub" onclick="sub()">SUB</div>
+            <div role="button" aria-pressed="false" class="operations" id="mul" onclick="mul()">MUL</div>
+            <div role="button" aria-pressed="false" class="operations" id="div" onclick="div()">DIV</div>
+        </div>
+        <div class="output-container">
+            <p>ANSWER: </p>
+            <a id="output">0</a>
+        </div>
+    </div>
+</body>
+
+</html>
