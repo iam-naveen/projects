@@ -48,19 +48,20 @@ Button - rgb(23, 91, 112)*/
     .projectsContainer{
         display: flex;
         flex-direction: column;
-        height: 50%;
         padding: 4em 2em 0 4em;
         background-color: var(--background);
         border-radius: 5vw 5vw 0 0;
+        overflow: visible;
     }
     .projectBar{
         max-width: 150vh;
+        height: fit-content;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         border: 3px solid black;
-        border-radius: 20px;
+        border-radius: 25px;
         overflow: hidden;
         background-color: black;
         margin-bottom: 5vh;

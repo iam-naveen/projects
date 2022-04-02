@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <label for="digits">Enter the Maximum Digits: </label>
+    <input type="number" name="digits" id="input" value="1">
+
+    <div class="random-container">
+        <h1>NUMBER: </h1>
+        <div id="num"></div>
+    </div>
+    
+    <button id="randomButton" onclick="randomNumber()">Generate Random Number</button>
+    <button id="copyButton" onclick="copy()">Copy to Clipboard</button>    
+    </div>
+</body>
+</html>
