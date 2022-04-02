@@ -14,7 +14,10 @@ function showcopy(){
 }
 
 function copy(){
-    navigator.clipboard.writeText(randomNum);
-    alert("Number Copied");
+    let number = document.getElementById('num');
+
+    navigator.clipboard.writeText(number.textContent);
+
+    alert("Copied: "+ number.textContent);
     console.log("COPIED");
 }
