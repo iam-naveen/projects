@@ -14,10 +14,6 @@ function showcopy(){
 }
 
 function copy(){
-    let number = document.getElementById('num');
-
-    navigator.clipboard.writeText(number.textContent);
-
-    alert("Copied: "+ number.textContent);
-    console.log("COPIED");
+    navigator.clipboard.writeText(randomNum);
+    
 }
