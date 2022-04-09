@@ -18,16 +18,19 @@ Button - rgb(23, 91, 112)*/
         background-color: black;
         font-family: 'Poppins', sans-serif;
         margin: 0;
+        gap: 20px;
     }
     
     .header{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
         height: 30%;
-        padding: 5em 2em 2em 4em;
-        margin-bottom: 2vh;
+        padding: 30px;
+        gap: 2vh;
         background-color: var(--header-background);
-        border-radius: 0 0 200px 5vw;
+        border-radius: 0 0 150px 50px;
     }
     .name{
         font-weight: bold;
@@ -48,10 +51,11 @@ Button - rgb(23, 91, 112)*/
     .projectsContainer{
         display: flex;
         flex-direction: column;
-        padding: 4em 2em 0 4em;
+        padding: 30px;
         background-color: var(--background);
-        border-radius: 5vw 5vw 0 0;
+        border-radius: 50px 50px 0 0;
         overflow: visible;
+        height: 100%;
     }
     .projectBar{
         max-width: 150vh;
@@ -66,6 +70,7 @@ Button - rgb(23, 91, 112)*/
         border-radius: 25px;
         background-color: black;
         margin-bottom: 5vh;
+        overflow: auto;
     }
     .projectName{
         padding: 10px 15px 10px 15px;
