@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I can Sort</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./main.js"></script>
+  </head>
+
+  <body>
+    <div class="userBar">
+      <div class="selector">
+        <label for="sortMethod">Select Method of Sorting</label>
+        <select name="sortMethod" id="methodSelector">
+          <option value=""></option>
+          <option value="">Linear Sort</option>
+          <option value="">Bubble Sort</option>
+          <option value="">Merge Sort</option>
+        </select>
+      </div>
+      <div class="Generater">
+        <button class="button" onclick="generateNum(10)">
+          Generate Numbers
+        </button>
+        <div id="unsortedArray">
+          <p id="1" class="num"></p>
+          <p id="2" class="num"></p>
+          <p id="3" class="num"></p>
+          <p id="4" class="num"></p>
+          <p id="5" class="num"></p>
+          <p id="6" class="num"></p>
+          <p id="7" class="num"></p>
+          <p id="8" class="num"></p>
+          <p id="9" class="num"></p>
+          <p id="10" class="num"></p>
+        </div>
+        <button id="sortButton" onclick="showSorted()">SORT</button>
+        <div id="sortedArray">
+          <p id="11" class="numSorted"></p>
+          <p id="12" class="numSorted"></p>
+          <p id="13" class="numSorted"></p>
+          <p id="14" class="numSorted"></p>
+          <p id="15" class="numSorted"></p>
+          <p id="16" class="numSorted"></p>
+          <p id="17" class="numSorted"></p>
+          <p id="18" class="numSorted"></p>
+          <p id="19" class="numSorted"></p>
+          <p id="20" class="numSorted"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

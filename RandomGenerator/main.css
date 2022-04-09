@@ -72,7 +72,7 @@ button:active{
 }
 #copyButton{
     visibility: hidden;
-    background-color: rgb(235, 54, 54);
+    background-color: #eb3737;
 }
 
 /* scroll-bar styles */

@@ -2,14 +2,18 @@
 body{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    background: #DE6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
 
 .container{
 
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color:white;
 
     display: grid;
 
@@ -45,6 +49,7 @@ body{
     font-size: 1.8vw;
     font-weight: bold;
     border-radius: 30px;
+    background-color: white;
     box-shadow: 2px 2px 5px rgb(78, 78, 78);
 }
 
@@ -64,6 +69,7 @@ body{
     font-weight: bold;
     padding: 3vw;
     border-radius: 30px;
+    background-color: white;
     box-shadow: 2px 2px 5px rgb(78, 78, 78);
 }
 
@@ -78,7 +84,7 @@ body{
     
     border-radius: 30px;
     overflow: clip;
-    background-color: rgb(185, 185, 185);
+    background: #cc5151;
 }
 
 .sub-holder{
@@ -105,10 +111,10 @@ body{
    display: none;
 }
 .sub-holder::-webkit-scrollbar-track{
-    background-color: rgb(241, 241, 241);
+    background-color: #ffd6bd;
 }
 .sub-holder::-webkit-scrollbar-thumb {
-    background: rgb(83, 83, 83);
+    background: #662700;
     border-radius: 10px;
 }
 .sub{
@@ -118,7 +124,7 @@ body{
     margin: 0 2.5px;
 
     display: inline-block;
-    background-color: white;
+    background-color: #ffddc7;
     box-shadow: 2px 2px 10px black;
 }
 

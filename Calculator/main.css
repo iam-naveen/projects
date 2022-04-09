@@ -1,7 +1,6 @@
 body{
     display: flex;
-    margin: auto;
-    padding: 50px;
+    margin: 0;
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
@@ -16,9 +15,10 @@ p{
 }
 
 .container{
+    margin-top: 70px;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 25em;
+    max-width: 20em;
 }
 
 .input-container{

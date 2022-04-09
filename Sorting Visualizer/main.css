@@ -1,0 +1,30 @@
+#unsortedArray{
+    display: flex;
+    gap: 10px;
+}
+
+.num{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.numSorted{
+    display: inline-block;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sortedArray{
+    display: flex;
+    gap: 10px;
+}

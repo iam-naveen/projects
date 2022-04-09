@@ -1,3 +1,5 @@
+document.getElementById('button').style.userSelect = "none";
+
         function startTime() {
         //   const today= new Date();
         //   let h = today.getHours();
